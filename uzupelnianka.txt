@@ -1,6 +1,6 @@
 Wyjątki dzielimy na kontrolowane które trzeba obsłużyć i niekontrolowane które można, ale nie trzeba obsłużyć.
 
-Wyjątki kontrolowane dziedziczą po klasie RuntimeException
+Wyjątki niekontrolowane dziedziczą po klasie RuntimeException
 
 Wyjątki rzucamy korzystając z instrukcji throw new, jeśli rzucamy wyjątek kontrolowany musimy dodatkowo w sygnaturze metody/konstruktora zadeklarować wyjątek używając słowa throws
 
